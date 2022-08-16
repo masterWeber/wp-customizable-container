@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "masterweber/customizable-container",
+  "version": "1.0.0",
+  "title": "Customizable container",
+  "category": "design",
+  "description": "Customizable container for Gutenberg.",
+  "attributes": {
+    "tagName": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "customizable-container",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
